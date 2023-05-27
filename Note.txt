@@ -1,0 +1,50 @@
+Typescript  is a superset of javascript : which simpley means , a wrapper or layer with more features
+
+
+Somme Typescript features:
+1. Types - Tells our program what kind of data it should expect
+2. Interfaces - Defines how our data or functionalities should be modeled.
+3. Decorators  - This are functions that are invoked with a prefied @ symbol . They return the same thing that was passed in, but it has been argument in some way
+Note: for decorators you can decorator anything (Classses, methods ,properties and parameters)
+
+
+
+TYPES
+
+let name : string; // this shows we are expecting a value of string here
+ 
+ Types
+ 1. number - intergers
+ 2. string - text
+ 3. boolean - true / false
+ 4. any - all 
+
+Examples :
+
+1. let isDone: boolean = true;
+2. let decimal : number = 20;
+3. let name : string = "Syntax Designer";
+4. let posts: number[] = [1,2,3,4] // array of number;
+5. let notSure: any = 'Hi'; //anything
+
+
+
+INTERFACES
+
+    interface Post{
+        title : string;
+    }
+
+
+DECORATORS
+
+    @Component()
+
+
+RUNNING TYPESCRIPT
+1. tsc filename.ts  > this generates a filename.js file with the js formate of the code
+2. tsc filename.ts -w  > this will watch the file and re-run the tsc compiler when the file is changed
+
+
+
+Type Inference - this is the ability of typescript to detect type errors in our code
